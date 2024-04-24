@@ -10,7 +10,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>
-          Vishal prajapati is learning docker and docker compose .....
+          Vishal prajapati is learning Docker and Docker compose .....
         </p>
         <a
           className="App-link"
