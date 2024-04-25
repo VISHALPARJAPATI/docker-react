@@ -10,3 +10,11 @@ services:
       - .:/app/frontend
     ports:
       - "4040:3000"
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - /app/frontend/node_modules
+      - .:/app/frontend
+    command: ["npm", "run", "test"]
